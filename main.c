@@ -70,6 +70,7 @@ int main(){
 	sem_destroy(&buf.sem_items);
 	pthread_mutex_destroy(&buf.mutex);
 
+	std::cout << "Coka";
 
 }
 
